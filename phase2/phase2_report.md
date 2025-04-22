@@ -1,7 +1,7 @@
 # Phase 2 Report – Basic Structure and Main Functionalities
 
 ## Project Name: WorkHub Dashboard
-## Author: Kelil
+## Author: Rayane
 
 ---
 
