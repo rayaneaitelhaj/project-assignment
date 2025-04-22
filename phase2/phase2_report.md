@@ -82,5 +82,4 @@ See prototype drawing in [UI.md](../phase1/UI.md)
 
 ---
 
-## 🔗 Links
-- GitHub: [Insert GitHub file link here]
+
