@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Phase 3 Demo</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      background: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .box {
+      flex: 1;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    form input {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>User Form (Phase 3)</h2>
+
+  <div class="container">
+    <div class="box">
+      <form id="userForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{10}" title="Enter 10-digit number">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="box">
+      <p>This is the second box. On mobile, it goes below the form.</p>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("userForm");
+  form.addEventListener("submit", function (e) {
+    const email = document.getElementById("email").value;
+    if (!email.includes("@")) {
+      alert("Please enter a valid email address.");
+      e.preventDefault();
+    }
+  });
+  </script>
+  
+
+</body>
+</html>
