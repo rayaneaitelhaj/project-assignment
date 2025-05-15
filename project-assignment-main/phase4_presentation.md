@@ -54,27 +54,23 @@ This project is a form-based web application developed using HTML, CSS, and Java
 
 ## 🔹 Time Used (Estimation)
 
-| Task                              | Hours |
-|-----------------------------------|-------|
-| Planning & Phase 1 documentation  | 3 h   |
-| Form structure & validation       | 4 h   |
-| Dark mode & responsive layout     | 3 h   |
-| Live preview & success message    | 3 h   |
-| LocalStorage & form hiding        | 2 h   |
-| Testing, fixes, refactoring       | 2 h   |
-| Writing reports & organizing Git | 3 h   |
-**→ Total: ~20 hours**
+| Task                                | Hours |
+|-------------------------------------|--------|
+| Phase 1 planning & documentation    | 5 h    |
+| Core functionality & validation     | 15 h   |
+| Dark mode, preview, responsiveness  | 10 h   |
+| Testing & debugging                 | 8 h    |
+| Reports & Git structure             | 7 h    |
+| Final presentation preparation      | 10 h   |
+| **→ Total**                         | **55 h** |
 
 ---
 
 ## 🔹 Reflection
 
-This project helped me learn how to structure a multi-phase web development process. Each phase added new layers of value:
-- Phase 1 clarified the goals and design
-- Phase 2 focused on functionality
-- Phase 3 added polish and interactivity
-
-I now understand how simple JavaScript features (like `localStorage` or `eventListeners`) can create real user value. I also improved my Git skills by managing all versions and folders correctly.
+This phase-based workflow helped me understand how to structure a project. Every feature added in Phase 3 improved the usability.  
+Dark mode, live preview, and localStorage made the app feel real and user-friendly.  
+I also learned Git versioning, report writing, and how to follow multi-phase software development.
 
 ---
 
@@ -106,4 +102,6 @@ If I continue this project, I would add:
 - Name: **Rayane Aitelhaj**
 - Project: **Phase-based Front-End App**
 - All 5 use cases implemented
-- Total hours: **20+**
+- Total hours: **55+**
+
+---
