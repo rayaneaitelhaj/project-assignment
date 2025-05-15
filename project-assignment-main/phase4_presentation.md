@@ -91,9 +91,9 @@ If I continue this project, I would add:
 
 ---
 
-## 🔗 GitHub Project Link
+## 🔗 GitHub Project and video Link
 
-[🔗 View on GitHub](https://github.com/rayaneaitelhaj/project-assignment)
+[🔗 Video link](https://drive.google.com/file/d/1AxFzu8Ir4t5dSx9fRkEqr3QAORDudVnD/view?usp=sharing)
 
 ---
 
